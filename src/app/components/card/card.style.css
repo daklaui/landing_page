@@ -1,0 +1,19 @@
+.cardContent {
+  width: 614px;
+  height: 367px;
+  border-radius: 14px;
+  @media (max-width:  640px) {
+    width: 307px;
+    height: 183.5px;
+  }
+}
+.cardBgGradient {
+  background: linear-gradient(109deg, #DBB898 25.3%, #9DC1CE 82.65%);
+}
+.cardInverseBgGradient {
+  background: linear-gradient(109deg, #C5DCE4 25.3%, #DBB898 82.65%);
+}
+.react-player {
+  border-radius: 14px;
+  overflow: hidden;
+}

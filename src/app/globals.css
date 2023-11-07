@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.upload_icon{
+    width: 70%;
+    max-width: 94px;
+}
