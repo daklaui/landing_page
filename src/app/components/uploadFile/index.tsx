@@ -15,14 +15,15 @@ const UploadFile: React.FC<UploadProps> = () => {
 
 
     return (
-        <div className='flex  justify-center content-center flex-col px-20' >
-            <input type="file" onChange={handleFile} className="h-full w-full opacity-0 z-10 absolute  cursor-pointer " multiple name="files[]" />
+        <div className='flex  justify-center content-center flex-col  ' >
+            <input type="file" onChange={handleFile} className="cardContent right-28 opacity-0 z-10 absolute  cursor-pointer " multiple name="files[]" />
             <RenderTextWithIcon
                 firstText='Upload CV' secondText='PDF or DOCX' imageSrc={
-                    <Image
+                    <img
                         src={'/assets/svg_icons/upload.svg'}
                         className="self-center upload_icon"
                         alt="upload icon"
+
                     />
                 } />
         </div>
